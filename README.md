@@ -1,4 +1,4 @@
-## Speed Typing
+## UrbanBite
 A JavaScript Mapbox API Practice
 
 [Click to view](https://cnbjjj.github.io/practice-urbanbite)
