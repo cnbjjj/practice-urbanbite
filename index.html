@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="author" content="JJ" />
+        <meta name="description" content="UrbanBite" />
+        <meta name="keywords" content="UrbanBite" />
+        <title>UrbanBite</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+            rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon" />
+        <script src='https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.css' rel='stylesheet' />
+        <link rel="stylesheet" href="./assets/css/reset.css" type="text/css" />
+        <link rel="stylesheet" href="./assets/css/index.css" type="text/css" />
+        <script src="./assets/js/index.js" type="module"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container flex flex-sb">
+                <h1><a href="index.html">UrbanBite</a></h1>
+                <nav>
+                    <ul class="flex gap-40">
+                        <li><a href="#order">Orders</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#">Log out</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="landing">
+                <div class="hero">
+                    <div class="container">
+                        <div class="hero-content">
+                            <h1>Delivered Fresh</h1>
+                            <p>Bringing Culinary Delights to Your Doorstep</p>
+                            <a href="#menu" class="theme-button">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="empty"></div>
+            </section>
+            <section id="menu" class="menu section">
+                <div class="section-title">
+                    <h3>
+                        Menu
+                    </h3>
+                    <p>Taste the Journey, Dish by Dish.</p>
+                </div>
+                <div class="container flex flex-wrap flex-sb">
+                    <div class="card ct-25">
+                        <div class="card-1 content flex">
+                            <div class="card-icon"></div>
+                            <h2>Fit</h2>
+                            <ul>
+                                <li>Lean Protein (Chicken Breast, Tofu) - Essential for muscle repair and growth, lean proteins are key for those focusing on fitness.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card ct-25">
+                        <div class="card-2 content flex">
+                            <div class="card-icon"></div>
+                            <h2>Nutri</h2>
+                            <ul>
+                                <li>Berries (Blueberries, Strawberries) - High in antioxidants and vitamins, berries are great for an energy boost and overall nutrition.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card ct-25">
+                        <div class="card-3 content flex">
+                            <div class="card-icon"></div>
+                            <h2>Vital</h2>
+                            <ul>
+                                <li>Quinoa - A complete protein with all nine essential amino acids, perfect for nourishing your body's vital functions.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card ct-25">
+                        <div class="card-4 content flex">
+                            <div class="card-icon"></div>
+                            <h2>Wellness</h2>
+                            <ul>
+                                <li>Leafy Greens (Spinach, Kale) - Packed with vitamins, minerals, and fiber, these greens support overall wellness and health.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="order" class="order section">
+                <div class="section-title">
+                    <h3>Orders</h3>
+                    <p>
+                        UrbanBite's Delivery Route Tracker: Navigate Your Order's Journey
+                    </p>
+                    <a href="#order" class="track theme-button">Track My Order</a>
+                </div>
+                <div class="container" id='map'><div class="message"></div></div>
+            </section>
+        </main>
+        <footer>
+            <div class="container flex flex-sb">
+                <ul class="contact flex flex-sb flex-center gap-20">
+                    <li class="grid grid-center">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li class="grid grid-center">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li class="grid grid-center">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+                </ul>
+                <div class="copyright">&copy;2024 UrbanBite</div>
+            </div>
+        </footer>
+    </body>
+</html>
